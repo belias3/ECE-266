@@ -86,7 +86,7 @@ checkPushButton(uint32_t time)
     case 2:
         // Pring out a message
         // See uprintf() in launchpad.h
-        colorChoice = (colorChoice + 1) % LED_COLOR_NUM;
+        colorChoice = (colorChoice + 2) % LED_COLOR_NUM;
 
                 // Use an inertia for soft de-bouncing
         delay = 250;
